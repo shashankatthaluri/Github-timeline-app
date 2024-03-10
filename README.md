@@ -36,7 +36,8 @@ python github_timeline.py
 ```
 
 5. Open in Your Browser:
-   - Visit http://127.0.0.1:5000 in your web browser.
+
+- Visit http://127.0.0.1:5000 in your web browser.
 
 ## Contributions Welcome 👩‍💻👨‍💻
 Contributions to the development of GitHub Timeline are highly encouraged! Feel free to fork the project, make improvements, and submit pull requests.
