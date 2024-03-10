@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Timeline</title>
+</head>
+<body>
+    <h1>GitHub Timeline for {{ username }}</h1>
+    <ul>
+        {% for repo in timeline %}
+            <li>
+                <strong>{{ repo.name }}</strong>
+                <p>Created at: {{ repo.created_at }}</p>
+                <p>Description: {{ repo.description or "No description available" }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
