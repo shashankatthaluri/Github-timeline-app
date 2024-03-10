@@ -13,12 +13,12 @@ GitHub Timeline is a web application designed to create a visual history of a us
 ## Usage 🚀
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/github-timeline.git
+   git clone https://github.com/shashankatthaluri/Github-timeline-app.git
    ```
 2. Navigate to the Project Directory:
 
 ```bash
-cd github-timeline
+cd Github-timeline-app
 ```
 
 
